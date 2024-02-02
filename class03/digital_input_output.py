@@ -11,7 +11,7 @@ def setup():
   global pin41, pin1
 
   M5.begin()
-  # initiallize pin 41 (screen button on Atom S3 )
+  # initiallize pin 41 (screen button on Atom S3 _ test)
   pin41 = Pin(41, mode=Pin.IN)
   pin1 = Pin(1, mode=Pin.OUT)
 
