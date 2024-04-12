@@ -38,3 +38,8 @@ I used:
 ![image](img/14.jpg)
 
 ![image](img/15.jpg)
+
+
+## Firmware - hardware
+Pressure sensor setup:
+
