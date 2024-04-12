@@ -2,4 +2,4 @@
 ## Introduction
 #### Nowadays
 
-![](https://i.ibb.co/Wvx2dLp/6.png)
+![](https://i.ibb.co/Wvx2dLp/6.png){: width="100%"",height="100%""}
