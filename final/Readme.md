@@ -27,4 +27,4 @@ I used:
 - 1 Ultrasonic sensor
 - 1 Pressure sensor
 
-![image](img/10.png)
+![image](img/Flowchart.jpg)
