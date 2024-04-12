@@ -174,4 +174,19 @@ I created two motion clips by using Cinema 4D, after effects, etc. in this proje
 
 ![image](img/3D.jpg)
 
+by Cinema 4D to make the 3D car
+
 ![image](img/after.jpg)
+
+by Aftereffect to make the videos
+
+##
+## Mechanical Design
+I made a cradle that can hold Atom with my phone and 2 sensors.
+
+![image](img/17.jpg)
+
+![image](img/18.jpg)
+
+![image](img/19.jpg)
+
