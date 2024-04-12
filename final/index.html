@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.9.0/p5.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.9.0/addons/p5.sound.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <meta charset="utf-8" />
+</head>
+<body>
+    <main></main>
+    <script src="sketch.js"></script>
+    <div style="position: absolute; z-index: 1; left: 10px; top: 10px;">
+        <button id="connect-button" type="button">🔌 Connect</button>
+    </div>
+    <div id="data" style="position: absolute; left: 10px; top: 40px;">Distance: 100, Pressure: 0</div>
+
+    <script>
+        const connectButton = document.getElementById('connect-button');
+        let reader, readableStreamClosed, port;
+
+        async function getReader() {
+            port = await navigator.serial.requestPort({});
+            await port.open({ baudRate: 115200 });
+            connectButton.innerText = '🔌 Disconnect';
+            const textDecoder = new TextDecoderStream();
+            readableStreamClosed = port.readable.pipeTo(textDecoder.writable);
+            reader = textDecoder.readable
+                .pipeThrough(new TransformStream(new LineBreakTransformer()))
+                .getReader();
+            readData();
+        }
+
+        async function readData() {
+            while (true) {
+                const { value, done } = await reader.read();
+                if (done) {
+                    reader.releaseLock();
+                    break;
+                }
+                if (value) {
+                    console.log('received.. ' + value);
+                    const textElement = document.getElementById("data");
+                    textElement.textContent = `Data: ${value}`;
+                    updateSensorData(value); // Pass data to p5.js sketch
+                }
+            }
+        }
+
+        class LineBreakTransformer {
+            constructor() {
+                this.chunks = "";
+            }
+
+            transform(chunk, controller) {
+                this.chunks += chunk;
+                const lines = this.chunks.split("\r\n");
+                this.chunks = lines.pop();
+                lines.forEach(line => controller.enqueue(line));
+            }
+
+            flush(controller) {
+                controller.enqueue(this.chunks);
+            }
+        }
+
+        if ('serial' in navigator) {
+            connectButton.addEventListener('click', async function () {
+                if (port) {
+                    try {
+                        reader.cancel().catch(error => console.log(error));
+                        await readableStreamClosed.catch(() => {});
+                        await port.close();
+                        port = undefined;
+                        connectButton.innerText = '🔌 Connect';
+                    } catch (error) {
+                        console.log(error);
+                    }
+                } else {
+                    getReader();
+                }
+            });
+        }
+    </script>
+</body>
+</html>
