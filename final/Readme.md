@@ -194,7 +194,7 @@ I made a cradle that can hold Atom with my phone and 2 sensors.
 
 After testing, the best way to detect the distance between the u ser and the Uber (monitor):
 
-![image](img/20.jpg)
+![image](img/21.jpg)
 
 ##
 ## Project outcome
