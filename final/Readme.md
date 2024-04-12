@@ -30,3 +30,9 @@ I used:
 ![image](img/Flowchart.jpg)
 
 ![image](img/11.jpg)
+
+![image](img/12.jpg)
+
+![image](img/13.jpg)
+
+![image](img/14.jpg)
