@@ -168,5 +168,10 @@ Video fade in and out during transition:
 
 ##
 ## Integrations
-I created two motion clips by using after effects in this project and uploaded them locally. So that I can directly call them in the software.
+I created two motion clips by using Cinema 4D, after effects, etc. in this project and uploaded them locally. So that I can directly call them in the software.
 
+![image](img/list.jpg)
+
+![image](img/3D.jpg)
+
+![image](img/after.jpg)
