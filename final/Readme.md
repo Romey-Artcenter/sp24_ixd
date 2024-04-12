@@ -39,7 +39,10 @@ I used:
 
 ![image](img/15.jpg)
 
-
+##
 ## Firmware - hardware
 Pressure sensor setup:
+
+adc = ADC(Pin(PRESSURE_SENSOR_PIN))
+adc.atten(ADC.ATTN_11DB)
 
