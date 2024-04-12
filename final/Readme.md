@@ -28,3 +28,5 @@ I used:
 - 1 Pressure sensor
 
 ![image](img/Flowchart.jpg)
+
+![image](img/11.jpg)
