@@ -16,4 +16,4 @@ From Now on, you can find easier your Uber too.
 ![image](img/5.png)
 
 
-![image](img/5.png)
+![image](img/6.png)
