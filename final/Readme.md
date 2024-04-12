@@ -42,7 +42,7 @@ I used:
 ##
 ## Firmware - hardware
 Pressure sensor setup:
-
+'''c
 adc = ADC(Pin(PRESSURE_SENSOR_PIN))
 adc.atten(ADC.ATTN_11DB)
-
+'''
