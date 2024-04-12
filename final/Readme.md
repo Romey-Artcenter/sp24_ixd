@@ -167,6 +167,6 @@ Video fade in and out during transition:
 ```
 
 ##
-##Integrations
+## Integrations
 I created two motion clips by using after effects in this project and uploaded them locally. So that I can directly call them in the software.
 
