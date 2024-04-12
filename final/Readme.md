@@ -17,3 +17,14 @@ From Now on, you can find easier your Uber too.
 
 
 ![image](img/6.png)
+
+
+## Implementation
+### Hardware - material & wiring
+I used:
+
+- 1 Atom s3 lite board
+- 1 Ultrasonic sensor
+- 1 Pressure sensor
+
+![image](img/10.png)
