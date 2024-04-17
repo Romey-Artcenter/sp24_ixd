@@ -204,4 +204,26 @@ Youtube
 ##
 ## Conclusion
 
+I would like to thank Professor Nikita for always teaching me in a gentle manner.
+It was so much fun not only because of the final exam, but also because I was able to do a variety of experiments and projects in this class. Love it!
+Python is more difficult for me than any other coding (the parts that don't work if you miss a small detail are difficult), but I really really enjoyed this class.
+
+And I definitely want to one day create an application that allows people with low vision or strangers to find their way around and find their vehicle as well.
+thank you!
+Have a great one!
+
+Romey Jung ah Choi
+
+
+##
+## References
+
+https://github.com/orgs/micropython/discussions/11205
+
+https://www.youtube.com/watch?v=DM1Lu8oo-50
+
+https://github.com/qzz031219/ixd-256-ennis/tree/main/final
+
+
+
 
