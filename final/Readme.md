@@ -1,5 +1,5 @@
 # FINAL PROJECT
-#  "Find My Uber: A 3D Color & Sound-Based Ride Matching System"
+## "Find My Uber: A 3D-Designed Vehicle with Color & Sound-Based Ride Matching System"
 ## Introduction
 Echo & Glow – A Sensory Way to Find Your Uber
 
