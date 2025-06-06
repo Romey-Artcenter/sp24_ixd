@@ -1,5 +1,5 @@
 # FINAL PROJECT: 
-  Find My Uber: A 3D Color & Sound-Based Ride Matching System
+#  Find My Uber: A 3D Color & Sound-Based Ride Matching System
 ## Introduction
 It is not easy to find the Uber I called or find my own vehicle in very crowded places such as LAX or large shopping malls.
 Moreover, if I have low vision or am a traveler, it will be even more difficult to find my vehicle.
