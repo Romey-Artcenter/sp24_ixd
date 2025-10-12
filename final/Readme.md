@@ -223,9 +223,10 @@ https://github.com/orgs/micropython/discussions/11205
 
 https://www.youtube.com/watch?v=DM1Lu8oo-50
 
-https://github.com/qzz031219/ixd-256-ennis/tree/main/final
 
+##
+## see other projects
 
 <img width="1909" height="1072" alt="image" src="https://github.com/user-attachments/assets/d58b4ebc-6e3a-4f42-8173-efc1be85b93c" />
 
-see other projects
+
